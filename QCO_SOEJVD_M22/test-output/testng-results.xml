@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[connection to database]]>
+    </line>
+    <line>
+      <![CDATA[beforesuite]]>
+    </line>
+    <line>
+      <![CDATA[beforetest]]>
+    </line>
+    <line>
+      <![CDATA[launch browser and navigate to app]]>
+    </line>
+    <line>
+      <![CDATA[beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[login to app]]>
+    </line>
+    <line>
+      <![CDATA[beforemethod]]>
+    </line>
+    <line>
+      <![CDATA[on start]]>
+    </line>
+    <line>
+      <![CDATA[from method]]>
+    </line>
+    <line>
+      <![CDATA[on failure]]>
+    </line>
+    <line>
+      <![CDATA[logout app]]>
+    </line>
+    <line>
+      <![CDATA[aftermethod]]>
+    </line>
+    <line>
+      <![CDATA[close browser]]>
+    </line>
+    <line>
+      <![CDATA[afterclass]]>
+    </line>
+    <line>
+      <![CDATA[aftertest]]>
+    </line>
+    <line>
+      <![CDATA[dis-connection to database]]>
+    </line>
+    <line>
+      <![CDATA[aftersuite]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-05T08:46:58 IST" name="Default suite" finished-at="2024-06-05T08:47:14 IST" duration-ms="15456">
+    <groups>
+    </groups>
+    <test started-at="2024-06-05T08:46:58 IST" name="Default test" finished-at="2024-06-05T08:47:14 IST" duration-ms="15456">
+      <class name="TestNG_Adv.TestScript_003">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:TestNG_Adv.TestScript_003@3ad83a66]" started-at="2024-06-05T08:46:58 IST" name="beforesuite" finished-at="2024-06-05T08:46:58 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[connection to database]]>
+            </line>
+            <line>
+              <![CDATA[beforesuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:TestNG_Adv.TestScript_003@3ad83a66]" started-at="2024-06-05T08:46:58 IST" name="beforetest" finished-at="2024-06-05T08:46:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[beforetest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:TestNG_Adv.TestScript_003@3ad83a66]" started-at="2024-06-05T08:46:58 IST" name="beforeclass" finished-at="2024-06-05T08:47:04 IST" duration-ms="5495" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launch browser and navigate to app]]>
+            </line>
+            <line>
+              <![CDATA[beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNG_Adv.TestScript_003@3ad83a66]" started-at="2024-06-05T08:47:04 IST" name="beforemethod" finished-at="2024-06-05T08:47:06 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login to app]]>
+            </line>
+            <line>
+              <![CDATA[beforemethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="FT_01()[pri:0, instance:TestNG_Adv.TestScript_003@3ad83a66]" started-at="2024-06-05T08:47:06 IST" name="FT_01" finished-at="2024-06-05T08:47:12 IST" duration-ms="6389" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+not landed to webpage expected [https://demowebshop.tricens.com/141-inch-laptop] but found [https://demowebshop.tricentis.com/141-inch-laptop]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+not landed to webpage expected [https://demowebshop.tricens.com/141-inch-laptop] but found [https://demowebshop.tricentis.com/141-inch-laptop]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at TestNG_Adv.TestScript_003.FT_01(TestScript_003.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[on start]]>
+            </line>
+            <line>
+              <![CDATA[from method]]>
+            </line>
+            <line>
+              <![CDATA[on failure]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FT_01 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Adv.TestScript_003@3ad83a66]" started-at="2024-06-05T08:47:12 IST" name="aftermethod" finished-at="2024-06-05T08:47:14 IST" duration-ms="1225" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout app]]>
+            </line>
+            <line>
+              <![CDATA[aftermethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:TestNG_Adv.TestScript_003@3ad83a66]" started-at="2024-06-05T08:47:14 IST" name="afterclass" finished-at="2024-06-05T08:47:14 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close browser]]>
+            </line>
+            <line>
+              <![CDATA[afterclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:TestNG_Adv.TestScript_003@3ad83a66]" started-at="2024-06-05T08:47:14 IST" name="aftertest" finished-at="2024-06-05T08:47:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[aftertest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:TestNG_Adv.TestScript_003@3ad83a66]" started-at="2024-06-05T08:47:14 IST" name="aftersuite" finished-at="2024-06-05T08:47:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[dis-connection to database]]>
+            </line>
+            <line>
+              <![CDATA[aftersuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- TestNG_Adv.TestScript_003 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
